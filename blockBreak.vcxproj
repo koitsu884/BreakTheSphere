@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28E0F742-F021-49E0-97A8-41BBCDE021CD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\cpuAI.c" />
+    <ClCompile Include="SRC\Global.c" />
+    <ClCompile Include="SRC\Hit.c" />
+    <ClCompile Include="SRC\Main.c" />
+    <ClCompile Include="SRC\Tex.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INC\extern.h" />
+    <ClInclude Include="INC\system.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DAT\Block.bmp" />
+    <Image Include="DAT\Block2.bmp" />
+    <Image Include="DAT\Block3.bmp" />
+    <Image Include="DAT\comsel.bmp" />
+    <Image Include="DAT\daimei.bmp" />
+    <Image Include="DAT\haniwa.bmp" />
+    <Image Include="DAT\kabe.bmp" />
+    <Image Include="DAT\kyub_14.gif" />
+    <Image Include="DAT\LIGHT.BMP" />
+    <Image Include="DAT\LIGHT2.BMP" />
+    <Image Include="DAT\LOS.bmp" />
+    <Image Include="DAT\MAP01_001.BMP" />
+    <Image Include="DAT\nanido.bmp" />
+    <Image Include="DAT\nanisel.bmp" />
+    <Image Include="DAT\P1.BMP" />
+    <Image Include="DAT\P1_FACE.bmp" />
+    <Image Include="DAT\P1_LOS.BMP" />
+    <Image Include="DAT\P1_WIN.BMP" />
+    <Image Include="DAT\P2.BMP" />
+    <Image Include="DAT\P2_FACE.bmp" />
+    <Image Include="DAT\P2_LOS.BMP" />
+    <Image Include="DAT\P2_WIN.BMP" />
+    <Image Include="DAT\Ready.bmp" />
+    <Image Include="DAT\retry.bmp" />
+    <Image Include="DAT\samp.bmp" />
+    <Image Include="DAT\samp0.bmp" />
+    <Image Include="DAT\samp1.bmp" />
+    <Image Include="DAT\score.bmp" />
+    <Image Include="DAT\SUUJI.BMP" />
+    <Image Include="DAT\TAMA.BMP" />
+    <Image Include="DAT\WIN_LOS.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAT\object.mif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DAT\読むこと.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

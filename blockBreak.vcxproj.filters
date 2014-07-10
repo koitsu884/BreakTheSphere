@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\cpuAI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Hit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Tex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INC\extern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INC\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DAT\Block.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\Block2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\Block3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\comsel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\daimei.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\haniwa.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\kabe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\kyub_14.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\LIGHT.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\LIGHT2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\LOS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\MAP01_001.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\nanido.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\nanisel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P1_FACE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P1_LOS.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P1_WIN.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P2_FACE.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P2_LOS.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\P2_WIN.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\Ready.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\retry.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\samp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\samp0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\samp1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\score.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\SUUJI.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\TAMA.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DAT\WIN_LOS.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAT\object.mif">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DAT\読むこと.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
